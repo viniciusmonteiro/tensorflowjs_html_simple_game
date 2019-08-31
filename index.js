@@ -14,7 +14,12 @@ async function app() {
   net = await mobilenet.load();
   console.log('Sucessfully loaded model');
 
-  await setupWebcam();
+  try {
+    await setupWebcam();
+  }  
+  catch(err){
+    alert("It was not possible to setup the webcam.");
+  }
 
   // Reads an image from the webcam and associates it with a specific class
   // index.
@@ -118,9 +123,8 @@ function startGame() {
         }
     }
 
-    if(true){
-    // if (training_samples[0] > 9 && training_samples[1] > 9 && training_samples[2] > 9){
-        // alert('start game');
+    
+    if (training_samples[0] > 9 && training_samples[1] > 9 && training_samples[2] > 9){
         myGamePiece = new component(30, 30, "blue", 50, 120);
         myGamePiece.gravity = 0.05;
         myScore = new component("30px", "Consolas", "black", 330, 40, "text");

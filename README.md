@@ -2,9 +2,9 @@
 Simple html game using tensorflowjs.
 
 # Game Instructions:
-Setup the game actions (move up, stop and move down) using the camera.
-Add at least 10 examples for each action.
-Also, make sure that you provide different poses for each action. Be creative! :)
++ Setup the game actions (move up, stop and move down) using the camera.
++ Add at least 10 examples for each action.
++ Also, make sure that you provide different poses for each action. Be creative! :)
 
 
 # Demo Images: 
@@ -16,5 +16,5 @@ Some examples:
 
 
 # Credits: 
-https://www.tensorflow.org/js/tutorials/transfer/image_classification 
-https://www.w3schools.com/graphics/game_intro.asp
+* https://www.tensorflow.org/js/tutorials/transfer/image_classification 
+* https://www.w3schools.com/graphics/game_intro.asp

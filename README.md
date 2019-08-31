@@ -14,6 +14,9 @@ Some examples:
 ![Stop](https://github.com/viniciusmonteiro/tensorflowjs_html_simple_game/blob/master/demo/example2.png)
 ![MoveDown](https://github.com/viniciusmonteiro/tensorflowjs_html_simple_game/blob/master/demo/example3.png)
 
+# Requirements:
++ Starting with Chrome 47, getUserMedia() requests (for the webcam) are only allowed from secure origins: HTTPS or localhost.
++ Ref: https://developers.google.com/web/updates/2015/10/chrome-47-webrtc?hl=en
 
 # Credits: 
 * https://www.tensorflow.org/js/tutorials/transfer/image_classification 

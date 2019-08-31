@@ -2,9 +2,10 @@
 Simple html game using tensorflowjs.
 
 # Game Instructions:
-+ Setup the game actions (move up, stop and move down) using the camera.
++ Setup the game actions (move up, stop and move down) using the camera to control the blue square.
 + Add at least 10 examples for each action.
 + Also, make sure that you provide different poses for each action. Be creative! :)
++ Start the game and avoid the obstacles controlling the blue square with your poses.
 
 
 # Demo Images: 
